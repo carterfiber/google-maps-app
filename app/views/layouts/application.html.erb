@@ -9,11 +9,13 @@
   </head>
 
   <body>
+    <div class="container">
     <%= yield %>
 
      <script type="text/javascript"
       src="https://maps.googleapis.com/maps/api/js?key=<%= ENV['google_api_key'] %>">
  </script>
+  </div>
 
   </body>
 </html>

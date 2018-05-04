@@ -11,7 +11,7 @@ $(document).ready(function (){
 		scrollwheel: false
 		};
 
-		var map = new google.maps.Map(document.getElementById('destination-map'), mapOptions);    
+		var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);    
     	// var image = 'http://www.iconsdb.com/icons/preview/caribbean-blue/low-importance-xxl.png';
     	var image = "<%= asset_path 'wifi.png' %>"
     	var marker = new google.maps.Marker({ 
